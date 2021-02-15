@@ -1,4 +1,4 @@
-# One Monokai Colorful Theme
+# One Monokai Shadow
 
 A cross between Monokai and One Dark theme
 

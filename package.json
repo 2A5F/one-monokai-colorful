@@ -1,6 +1,6 @@
 {
-    "name": "one-monokai-colorful",
-    "displayName": "One Monokai Colorful Theme",
+    "name": "one-monokai-shadow",
+    "displayName": "One Monokai Shadow",
     "description": "A cross between Monokai and One Dark theme",
     "version": "0.0.1",
     "publisher": "2A5F",
@@ -14,26 +14,26 @@
     "contributes": {
         "themes": [
             {
-                "label": "One Monokai Colorful",
+                "label": "One Monokai Shadow",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokaiColorful-color-theme.json"
+                "path": "./themes/OneMonokaiShadow-color-theme.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/2A5F/one-monokai-colorful.git"
+        "url": "https://github.com/2A5F/one-monokai-shadow.git"
     },
     "bugs": {
-        "url": "https://github.com/2A5F/one-monokai-colorful/issues"
+        "url": "https://github.com/2A5F/one-monokai-shadow/issues"
     },
-    "homepage": "https://github.com/2A5F/one-monokai-colorful/blob/master/README.md",
+    "homepage": "https://github.com/2A5F/one-monokai-shadow/blob/master/README.md",
     "keywords": [
         "Vscode",
         "Theme",
         "Onedark",
         "Monokai",
-        "Colorful"
+        "Shadow"
     ],
     "license": "MIT"
 }

@@ -1,11 +1,14 @@
 {
-  "name": "One Monokai",
+  "name": "One Monokai Shadow",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#222222",
     "activityBar.foreground": "#dcdcdc",
     "activityBarBadge.background": "#558b2f",
     "activityBarBadge.foreground": "#f3f3f3",
+    "badge.background": "#282c34",
+    "debugToolBar.background": "#21252b",
     "button.background": "#2e7d32",
     "diffEditor.insertedTextBackground": "#80808033",
     "dropdown.background": "#1f1f1f",
@@ -15,24 +18,38 @@
     "editor.findMatchBackground": "#555555",
     "editor.findMatchHighlightBackground": "#444444",
     "editor.lineHighlightBackground": "#2c2c2c",
+    "editorLineNumber.activeForeground": "#ababab",
     "editor.selectionBackground": "#3e3e3e",
+    "editor.selectionHighlightBackground": "#ffffff10",
+    "editor.selectionHighlightBorder": "#acacac",
+    "editor.wordHighlightBackground": "#dcdcdc2f",
+    "editor.wordHighlightBorder": "#848484",
+    "editor.wordHighlightStrongBackground": "#ababab26",
+    "editor.wordHighlightStrongBorder": "#848484",
+    "editorBracketMatch.background": "#555555",
+    "editorBracketMatch.border": "#555555",
     "editorCursor.foreground": "#528bff",
     "editorError.foreground": "#c53f46",
     "editorGroup.emptyBackground": "#1e1e1e",
     "editorGroup.border": "#1e1e1e",
     "editorGroupHeader.tabsBackground": "#222222",
+    "editorIndentGuide.activeBackground": "#c8c8c859",
     "editorIndentGuide.background": "#454545",
     "editorHoverWidget.background": "#222222",
     "editorHoverWidget.border": "#1e1e1e",
     "editorLineNumber.foreground": "#555555",
     "editorRuler.foreground": "#484848",
+    "editorMarkerNavigation.background": "#21252b",
     "editorSuggestWidget.background": "#222222",
     "editorSuggestWidget.border": "#1e1e1e",
     "editorSuggestWidget.selectedBackground": "#2c2c2c",
     "editorUnnecessaryCode.opacity": "#000000c0",
+    "editorWarning.foreground": "#d19a66",
     "editorWhitespace.foreground": "#454545",
     "editorWidget.background": "#2c2c2c",
+    "focusBorder": "#464646",
     "input.background": "#1d1d1d",
+    "list.warningForeground": "#d19a66",
     "list.activeSelectionBackground": "#2c2c2c",
     "list.activeSelectionForeground": "#dedede",
     "list.focusBackground": "#3c3c3c",
@@ -51,9 +68,13 @@
     "statusBarItem.hoverBackground": "#353535",
     "statusBar.noFolderBackground": "#222222",
     "statusBar.debuggingBackground": "#222222",
+    "statusBar.debuggingBorder": "#66017a",
+    "statusBar.debuggingForeground": "#ffffff",
     "tab.activeBackground": "#454545",
     "tab.border": "#2a2a2a",
     "tab.inactiveBackground": "#2c2c2c",
+    "tab.hoverBackground": "#565656",
+    "tab.unfocusedHoverBackground": "#2c2c2c",
     "terminal.foreground": "#ababab",
     "terminal.ansiBlack": "#313131",
     "terminal.ansiBlue": "#528bff",
@@ -71,12 +92,16 @@
     "terminal.ansiBrightMagenta": "#7e0097",
     "terminal.ansiBrightRed": "#f44747",
     "terminal.ansiBrightWhite": "#d7dae0",
-    "titleBar.activeBackground": "#222222",
+    "terminal.selectionBackground": "#ababab30",
+    "titleBar.activeBackground": "#282828",
     "titleBar.activeForeground": "#9d9d9d",
-    "titleBar.inactiveBackground": "#282828",
-    "titleBar.inactiveForeground": "#6B6B6B",
+    "titleBar.inactiveBackground": "#333333",
+    "titleBar.inactiveForeground": "#787878",
     "peekViewEditor.background": "#222222",
-    "menu.background": "#3c3c3c"
+    "menu.background": "#3c3c3c",
+    "panelSectionHeader.background": "#222222",
+    "peekViewEditor.matchHighlightBackground": "#292929",
+    "peekViewResult.background": "#22262b",
   },
   "tokenColors": [
     {
@@ -97,7 +122,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#dbc69aee"
+        "foreground": "#DABD80"
       }
     },
     {
@@ -116,7 +141,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#ffab91"
+        "foreground": "#e29134"
       }
     },
     {
@@ -139,7 +164,7 @@
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#b2dfdb"
+        "foreground": "#6EB3C0"
       }
     },
     {
@@ -149,7 +174,7 @@
         "constant.other"
       ],
       "settings": {
-        "foreground": "#80cbc4"
+        "foreground": "#6EB3C0"
       }
     },
     {
@@ -168,30 +193,43 @@
         "keyword.operator.constructor"
       ],
       "settings": {
-        "foreground": "#c5796cee"
+        "foreground": "#c56c72ee"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation.separator.dot-access",
+        "punctuation.accessor",
+        "punctuation.separator.colon",
+        "punctuation.terminator.statement",
+        "punctuation.separator.key-value"
+      ],
+      "settings": {
+        "foreground": "#ccccccaa"
       }
     },
     {
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#c5796cee"
+        "foreground": "#c56c72ee"
       }
     },
     {
-			"name": "Control flow / Special keywords",
-			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
-				"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
-			],
-			"settings": {
-				"foreground": "#c5796cee"
-			}
-		},
+      "name": "Control flow / Special keywords",
+      "scope": [
+        "keyword.control",
+        "source.cpp keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.other.using",
+        "keyword.other.operator",
+        "entity.name.operator"
+      ],
+      "settings": {
+        "foreground": "#c56c72ee"
+      }
+    },
     {
       "name": "Storage",
       "scope": "storage",
@@ -203,57 +241,57 @@
       "name": "Types declaration and references",
       "scope": [
         "meta.return-type",
-				"support.class",
-				"support.type",
-				"entity.name.type",
-				"entity.name.namespace",
-				"entity.other.attribute",
-				"entity.name.scope-resolution",
-				"entity.name.class",
+        "support.class",
+        "support.type",
+        "entity.name.type",
+        "entity.name.namespace",
+        "entity.other.attribute",
+        "entity.name.scope-resolution",
+        "entity.name.class",
         "storage.type.numeric.go",
-				"storage.type.byte.go",
-				"storage.type.boolean.go",
-				"storage.type.string.go",
-				"storage.type.uintptr.go",
-				"storage.type.error.go",
-				"storage.type.rune.go",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.error.go",
+        "storage.type.rune.go",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.modifier.cs",
+        "storage.type.variable.cs",
+        "storage.type.annotation.java",
+        "storage.type.generic.java",
+        "storage.type.java",
+        "storage.type.object.array.java",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.java",
+        "storage.type.token.java",
+        "storage.type.groovy",
+        "storage.type.annotation.groovy",
+        "storage.type.parameters.groovy",
+        "storage.type.generic.groovy",
+        "storage.type.object.array.groovy",
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.groovy"
       ],
       "settings": {
-        "foreground": "#6EB3C0ee"
+        "foreground": "#6EB3C0"
       }
     },
     {
-			"name": "Types declaration and references, TS grammar specific",
-			"scope": [
-				"meta.type.cast.expr",
-				"meta.type.new.expr",
-				"support.constant.math",
-				"support.constant.dom",
-				"support.constant.json",
-				"entity.other.inherited-class"
-			],
-			"settings": {
-				"foreground": "#6EB3C0ee"
-			}
-		},
+      "name": "Types declaration and references, TS grammar specific",
+      "scope": [
+        "meta.type.cast.expr",
+        "meta.type.new.expr",
+        "support.constant.math",
+        "support.constant.dom",
+        "support.constant.json",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#6EB3C0"
+      }
+    },
     {
       "name": "Class",
       "scope": [
@@ -270,22 +308,10 @@
     {
       "name": "Variable Object",
       "scope": [
-        "variable.other.readwrite.class",
-        "variable.other.readwrite.instance",
-        "variable.other.readwrite.batchfile",
-        "variable.readwrite",
-        "variable.readwrite.other.block",
-        "meta.definition.variable"
-      ],
-      "settings": {
-        "foreground": "#ffe082ee"
-      }
-    },
-    {
-      "name": "Variable Object Constant",
-      "scope": [
+        "variable.other.object",
         "variable.other.constant",
         "variable.other.constant.property",
+        "variable.other.readwrite",
       ],
       "settings": {
         "foreground": "#dcdcdc",
@@ -298,7 +324,7 @@
         "variable.other.object.property",
       ],
       "settings": {
-        "foreground": "#ffe082ee"
+        "foreground": "#c3c3c3"
       }
     },
     {
@@ -307,18 +333,18 @@
         "variable.other.constant.property",
       ],
       "settings": {
-        "foreground": "#dcdcdc",
+        "foreground": "#c3c3c3",
       }
     },
     {
-			"name": "Object keys, TS grammar specific",
-			"scope": [
-				"meta.object-literal.key"
-			],
-			"settings": {
-				"foreground": "#ababab"
-			}
-		},
+      "name": "Object keys, TS grammar specific",
+      "scope": [
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#c3c3c3"
+      }
+    },
     {
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
@@ -337,18 +363,18 @@
       }
     },
     {
-			"name": "Function declarations",
-			"scope": [
-				"entity.name.function",
-				"support.function",
-				"support.constant.handlebars",
-				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal"
-			],
-			"settings": {
-				"foreground": "#A0C180"
-			}
-		},
+      "name": "Function declarations",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.constant.handlebars",
+        "source.powershell variable.other.member",
+        "entity.name.operator.custom-literal"
+      ],
+      "settings": {
+        "foreground": "#A0C180"
+      }
+    },
     {
       "name": "Function argument",
       "scope": [
@@ -409,7 +435,7 @@
       "name": "Library constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#92cfda"
+        "foreground": "#6EB3C0"
       }
     },
     {
