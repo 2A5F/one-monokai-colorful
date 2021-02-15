@@ -2,7 +2,7 @@
     "name": "one-monokai-shadow",
     "displayName": "One Monokai Shadow",
     "description": "A cross between Monokai and One Dark theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "2A5F",
     "engines": {
         "vscode": "^1.13.0"
