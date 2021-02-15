@@ -1,8 +1,8 @@
+//@ts-nocheck
 'use strict';
 
 import graph, { FacebookUser } from 'fbgraph';
 import { Response, Request, NextFunction } from 'express';
-
 
 /**
  * GET /api
@@ -33,3 +33,5 @@ export const getFacebook = (req: Request, res: Response, next: NextFunction) => 
     });
   });
 };
+
+let a: bool = 1

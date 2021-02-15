@@ -1,9 +1,9 @@
 {
-    "name": "one-monokai",
-    "displayName": "One Monokai Theme",
+    "name": "one-monokai-colorful",
+    "displayName": "One Monokai Colorful Theme",
     "description": "A cross between Monokai and One Dark theme",
-    "version": "0.5.0",
-    "publisher": "azemoh",
+    "version": "0.0.1",
+    "publisher": "2A5F",
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -14,26 +14,26 @@
     "contributes": {
         "themes": [
             {
-                "label": "One Monokai",
+                "label": "One Monokai Colorful",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokai-color-theme.json"
+                "path": "./themes/OneMonokaiColorful-color-theme.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/azemoh/vscode-one-monokai.git"
+        "url": "https://github.com/2A5F/one-monokai-colorful.git"
     },
     "bugs": {
-        "url": "https://github.com/azemoh/vscode-one-monokai/issues"
+        "url": "https://github.com/2A5F/one-monokai-colorful/issues"
     },
-    "homepage": "https://github.com/azemoh/vscode-one-monokai/blob/master/README.md",
+    "homepage": "https://github.com/2A5F/one-monokai-colorful/blob/master/README.md",
     "keywords": [
         "Vscode",
         "Theme",
         "Onedark",
-        "Monokai"
+        "Monokai",
+        "Colorful"
     ],
-    "author": "Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
     "license": "MIT"
 }

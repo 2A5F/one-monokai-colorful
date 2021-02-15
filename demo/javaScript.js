@@ -22,6 +22,7 @@ export default Dog;
 
 export function greet(name) {
   let message = `Hello ${name}`;
+  message.asd.b
 	console.log(message);
 }
 
@@ -74,3 +75,21 @@ for(let i = 0; i < 5; i++) {
 }
 
 const validFormat = /\d[a-z]\.*\d{4}/i;
+
+function foo() {
+  foo()
+}
+
+foo(obj)
+
+let obj = { 
+  a: 1
+}
+
+obj
+
+const obj = {
+  obj: 1
+}
+
+obj
