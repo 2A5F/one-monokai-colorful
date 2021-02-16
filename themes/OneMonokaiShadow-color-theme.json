@@ -2,6 +2,30 @@
   "name": "One Monokai Shadow",
   "type": "dark",
   "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "enumMember": {
+      "foreground": "#6eb3c0"
+    },
+    "variable.constant": {
+      "foreground": "#6eb3c0",
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#6eb3c0"
+    },
+    "variable.global": {
+      "foreground": "#6eb3c0"
+    },
+    "variable.mutable": {
+      "bold": true
+    },
+    "member.mutable": {
+      "bold": true,
+      "foreground": "#dfe0bf"
+    },
+    "macro": {
+      "foreground": "#72bea1"
+    },
+  },
   "colors": {
     "activityBar.background": "#222222",
     "activityBar.foreground": "#dcdcdc",
@@ -137,10 +161,10 @@
         "string.embedded.begin",
         "string.embedded.end",
         "punctuation.definition.template-expression",
-        "punctuation.section.embedded"
+        "punctuation.section.embedded",
       ],
       "settings": {
-        "foreground": "#e29134"
+        "foreground": "#e25d34"
       }
     },
     {
@@ -153,6 +177,7 @@
         "source.elixir.embedded",
         "punctuation.separator",
         "punctuation.accessor",
+        "punctuation.semi",
         "meta.brace"
       ],
       "settings": {
@@ -309,7 +334,6 @@
       "scope": [
         "variable.other.object",
         "variable.other.constant",
-        "variable.other.constant.property",
       ],
       "settings": {
         "foreground": "#dcdcdc",
@@ -322,7 +346,7 @@
         "variable.other.object.property",
       ],
       "settings": {
-        "foreground": "#c3c3c3"
+        "foreground": "#c7c1ac",
       }
     },
     {
@@ -331,7 +355,7 @@
         "variable.other.constant.property",
       ],
       "settings": {
-        "foreground": "#c3c3c3",
+        "foreground": "#bdd3b8",
       }
     },
     {
@@ -361,6 +385,16 @@
       }
     },
     {
+      "name": "Macro declarations",
+      "scope": [
+        "entity.name.function.macro",
+      ],
+      "settings": {
+        "foreground": "#72bea1",
+        "fontStyle": "",
+      }
+    },
+    {
       "name": "Function declarations",
       "scope": [
         "entity.name.function",
@@ -370,7 +404,8 @@
         "entity.name.operator.custom-literal"
       ],
       "settings": {
-        "foreground": "#A0C180"
+        "foreground": "#A0C180",
+        "fontStyle": "",
       }
     },
     {
@@ -545,7 +580,7 @@
       "name": "Library variable",
       "scope": "support.other.variable",
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "",
       }
     },
     {
