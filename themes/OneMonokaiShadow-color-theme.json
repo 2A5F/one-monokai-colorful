@@ -248,7 +248,8 @@
         "keyword.operator.delete",
         "keyword.other.using",
         "keyword.other.operator",
-        "entity.name.operator"
+        "entity.name.operator",
+        "variable.language.this"
       ],
       "settings": {
         "foreground": "#c56c72ee"
