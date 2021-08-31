@@ -125,6 +125,8 @@
     "panelSectionHeader.background": "#222222",
     "peekViewEditor.matchHighlightBackground": "#292929",
     "peekViewResult.background": "#22262b",
+    "editorInlayHint.foreground": "#787878",
+    "editorInlayHint.background": "#222222"
   },
   "tokenColors": [
     {
