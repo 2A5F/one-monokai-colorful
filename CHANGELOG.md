@@ -1,3 +1,10 @@
+# 1.0.0
+
+- edit
+  - Use yellow for search highlighting
+  - Improve list background distinction
+  - Minimap selection also uses white
+
 # 0.3.0
 
 - edit
